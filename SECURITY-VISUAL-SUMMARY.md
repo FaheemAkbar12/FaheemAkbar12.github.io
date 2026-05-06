@@ -8,21 +8,21 @@
 
 ```
 ┌─────────────────────────────────────────────────────────────┐
-│              CONTACT FORM SECURITY LAYERS                    │
+│              CONTACT FORM SECURITY LAYERS                   │
 ├─────────────────────────────────────────────────────────────┤
-│                                                              │
+│                                                             │
 │  Layer 1: CSRF PROTECTION                                   │
 │  ├─ 256-bit cryptographic tokens                            │
 │  ├─ Automatic token rotation                                │
 │  ├─ 1-hour token expiry                                     │
 │  └─ Client + Server validation                              │
-│                                                              │
+│                                                             │
 │  Layer 2: RATE LIMITING                                     │
 │  ├─ 5 submissions per 10 minutes                            │
 │  ├─ IP-based tracking                                       │
 │  ├─ User-friendly countdown timers                          │
 │  └─ Client + Server enforcement                             │
-│                                                              │
+│                                                             │
 └─────────────────────────────────────────────────────────────┘
 ```
 
