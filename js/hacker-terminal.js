@@ -26,7 +26,7 @@ class HackerTerminal {
                 'scanning skills database...',
                 'loading projects archive...',
                 'establishing secure channel...',
-                'connection established: Azhar Ali',
+                'connection established: Faheem Akbar',
                 'system ready. welcome.'
             ],
             ...options
