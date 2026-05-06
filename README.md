@@ -156,6 +156,10 @@ npm run watch       # Auto-build on changes (dev)
   - Vercel  
   - VPS (Apache/Nginx; full control)
 
+### Automatic updates from GitHub
+
+If you want the live site to update every time you push to `main`, use the GitHub Actions workflow in [`.github/workflows/deploy-pages.yml`](.github/workflows/deploy-pages.yml). After adding it, set the repository's Pages source to **GitHub Actions** one time in GitHub settings.
+
 For detailed steps, see [PRODUCTION-DEPLOYMENT-GUIDE.md](PRODUCTION-DEPLOYMENT-GUIDE.md).
 
 ---
