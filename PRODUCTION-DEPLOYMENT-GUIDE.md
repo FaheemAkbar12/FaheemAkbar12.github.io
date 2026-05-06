@@ -1,6 +1,6 @@
 # Production Deployment Guide
 
-**Portfolio:** Azhar Ali - Cybersecurity Specialist & Full-Stack Developer  
+**Portfolio:** Faheem Akbar - Cybersecurity Specialist & Full-Stack Developer  
 **Last Updated:** January 9, 2026  
 **Status:** ✅ Production Ready
 
@@ -70,7 +70,7 @@
 
 ```bash
 # Navigate to project directory
-cd u:\Projects\PORTFOLIO\azhar-ali-portfolio
+cd u:\Projects\PORTFOLIO\faheem-akbar-portfolio
 
 # Install Node.js dependencies
 npm install
@@ -455,7 +455,7 @@ netlify deploy --prod
 
 # Choose:
 # - Create new site
-# - Site name: azhar-ali-portfolio
+# - Site name: faheem-akbar-portfolio
 # - Publish directory: . (root)
 
 # Future deploys
@@ -532,11 +532,11 @@ sudo apt update
 sudo apt install nginx
 
 # Copy files
-sudo mkdir -p /var/www/azhar-ali-portfolio
-sudo cp -r * /var/www/azhar-ali-portfolio/
+sudo mkdir -p /var/www/faheem-akbar-portfolio
+sudo cp -r * /var/www/faheem-akbar-portfolio/
 
 # Configure Nginx
-sudo nano /etc/nginx/sites-available/azhar-ali-portfolio
+sudo nano /etc/nginx/sites-available/faheem-akbar-portfolio
 ```
 
 **Nginx config:**
@@ -544,11 +544,11 @@ sudo nano /etc/nginx/sites-available/azhar-ali-portfolio
 server {
     listen 80;
     server_name yourdomain.com www.yourdomain.com;
-    root /var/www/azhar-ali-portfolio;
+    root /var/www/faheem-akbar-portfolio;
     index index.html;
     
     # Security headers
-    include /var/www/azhar-ali-portfolio/security-headers.conf;
+    include /var/www/faheem-akbar-portfolio/security-headers.conf;
     
     # Gzip
     gzip on;
@@ -569,7 +569,7 @@ server {
 
 **Enable site:**
 ```bash
-sudo ln -s /etc/nginx/sites-available/azhar-ali-portfolio /etc/nginx/sites-enabled/
+sudo ln -s /etc/nginx/sites-available/faheem-akbar-portfolio /etc/nginx/sites-enabled/
 sudo nginx -t
 sudo systemctl reload nginx
 ```

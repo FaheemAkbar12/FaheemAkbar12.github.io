@@ -1,7 +1,7 @@
 {
-  "name": "Azhar Ali Portfolio",
-  "short_name": "Azhar Portfolio",
-  "description": "Professional portfolio website of Azhar Ali, Software Developer with a sleek dark cyber theme",
+  "name": "Faheem Akbar Portfolio",
+  "short_name": "Faheem Portfolio",
+  "description": "Professional portfolio website of Faheem Akbar, Software Developer with a sleek dark cyber theme",
   "start_url": "/index.html",
   "display": "standalone",
   "background_color": "#0a0f1f",
@@ -64,14 +64,14 @@
     {
       "name": "View Projects",
       "short_name": "Projects",
-      "description": "View Azhar's portfolio projects",
+      "description": "View Faheem's portfolio projects",
       "url": "/index.html#projects",
       "icons": [{ "src": "assets/images/profile/logo.jpg", "sizes": "192x192" }]
     },
     {
-      "name": "Contact Azhar",
+      "name": "Contact Faheem",
       "short_name": "Contact",
-      "description": "Get in touch with Azhar",
+      "description": "Get in touch with Faheem",
       "url": "/index.html#contact",
       "icons": [{ "src": "assets/images/profile/logo.jpg", "sizes": "192x192" }]
     }

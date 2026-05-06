@@ -200,7 +200,7 @@ Target Scores:
 **Fix:** Verify `.hero-buttons` has `gap: 0.75rem` on mobile
 
 ### Issue: Loader appears every time
-**Fix:** Check localStorage in DevTools → should show `azhar_portfolio_visited: true`
+**Fix:** Check localStorage in DevTools → should show `faheem_portfolio_visited: true`
 
 ### Issue: Layout jumps after loader
 **Fix:** Hero section should have `min-height: 100vh` in global-layout-spacing.css

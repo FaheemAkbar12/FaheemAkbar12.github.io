@@ -19,7 +19,7 @@ All critical and high-severity accessibility, UX, and consistency issues have be
 
 ### 3. **Session Storage Migration** ✓
 - **Files**: `boot-loader.js`
-- **Change**: Added migration from old key `azhar_portfolio_visited` to new key `matrixLoaderShown`
+- **Change**: Added migration from old key `faheem_portfolio_visited` to new key `matrixLoaderShown`
 - **Impact**: Seamless transition for existing users
 
 ---
@@ -65,7 +65,7 @@ All critical and high-severity accessibility, UX, and consistency issues have be
 
 ### 9. **Footer Logo Alt Text Standardization** ✓
 - **Files**: All HTML pages
-- **Change**: Standardized to `alt="Azhar Ali Logo"` in all footers
+- **Change**: Standardized to `alt="Faheem Akbar Logo"` in all footers
 - **Impact**: Consistent screen reader experience
 
 ### 10. **Decorative Icon ARIA** ✓

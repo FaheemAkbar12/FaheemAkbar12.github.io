@@ -1,4 +1,4 @@
-# 🚀 GitHub Push Guide - Azhar Ali Portfolio
+# 🚀 GitHub Push Guide - Faheem Akbar Portfolio
 
 **Preparing your portfolio for GitHub deployment**
 
@@ -64,7 +64,7 @@ Before pushing to GitHub, verify:
 
 ```powershell
 # Navigate to your project
-cd U:\Projects\PORTFOLIO\azhar-ali-portfolio
+cd U:\Projects\PORTFOLIO\faheem-akbar-portfolio
 
 # Check if Git is initialized
 git status
@@ -86,7 +86,7 @@ git init
 git branch -M main
 
 # Configure Git (if first time)
-git config user.name "Azhar Ali"
+git config user.name "Faheem Akbar"
 git config user.email "your-email@example.com"
 ```
 
@@ -124,7 +124,7 @@ git status
 
 ```powershell
 # Commit with descriptive message
-git commit -m "Initial commit: Azhar Ali Portfolio
+git commit -m "Initial commit: Faheem Akbar Portfolio
 
 - Production-ready portfolio with security features
 - CSRF protection and rate limiting
@@ -141,7 +141,7 @@ git commit -m "Initial commit: Azhar Ali Portfolio
 
 **Option A: GitHub Website**
 1. Go to: https://github.com/new
-2. Repository name: `azhar-ali-portfolio` (or your choice)
+2. Repository name: `faheem-akbar-portfolio` (or your choice)
 3. Description: "Professional portfolio with enterprise security"
 4. Visibility: **Public** (recommended for portfolio)
 5. ⚠️ **DO NOT** initialize with README (you already have one)
@@ -149,7 +149,7 @@ git commit -m "Initial commit: Azhar Ali Portfolio
 
 **Option B: GitHub CLI** (if installed)
 ```powershell
-gh repo create azhar-ali-portfolio --public --source=. --remote=origin
+gh repo create faheem-akbar-portfolio --public --source=. --remote=origin
 ```
 
 ---
@@ -158,7 +158,7 @@ gh repo create azhar-ali-portfolio --public --source=. --remote=origin
 
 ```powershell
 # Replace YOUR_USERNAME with your actual GitHub username
-git remote add origin https://github.com/YOUR_USERNAME/azhar-ali-portfolio.git
+git remote add origin https://github.com/YOUR_USERNAME/faheem-akbar-portfolio.git
 
 # Verify remote added
 git remote -v
@@ -166,8 +166,8 @@ git remote -v
 
 **Expected output:**
 ```
-origin  https://github.com/YOUR_USERNAME/azhar-ali-portfolio.git (fetch)
-origin  https://github.com/YOUR_USERNAME/azhar-ali-portfolio.git (push)
+origin  https://github.com/YOUR_USERNAME/faheem-akbar-portfolio.git (fetch)
+origin  https://github.com/YOUR_USERNAME/faheem-akbar-portfolio.git (push)
 ```
 
 ---
@@ -188,7 +188,7 @@ git push -u origin main
 **Alternative: SSH** (if you have SSH keys set up)
 ```powershell
 # Change remote to SSH
-git remote set-url origin git@github.com:YOUR_USERNAME/azhar-ali-portfolio.git
+git remote set-url origin git@github.com:YOUR_USERNAME/faheem-akbar-portfolio.git
 
 # Push
 git push -u origin main
@@ -198,7 +198,7 @@ git push -u origin main
 
 ### Step 9: Verify on GitHub
 
-1. Open: https://github.com/YOUR_USERNAME/azhar-ali-portfolio
+1. Open: https://github.com/YOUR_USERNAME/faheem-akbar-portfolio
 2. Check files are present
 3. Verify README.md displays correctly
 4. Click around to ensure all files uploaded
@@ -238,11 +238,11 @@ Host your portfolio directly on GitHub:
 
 **Your site will be at:**
 ```
-https://YOUR_USERNAME.github.io/azhar-ali-portfolio/
+https://YOUR_USERNAME.github.io/faheem-akbar-portfolio/
 ```
 
-### Method 2: Custom Domain (azharalidayo.me)
-1. In Pages settings, add custom domain: `azharalidayo.me`
+### Method 2: Custom Domain (faheemakbar.me)
+1. In Pages settings, add custom domain: `faheemakbar.me`
 2. In your domain registrar (Namecheap, GoDaddy, etc.):
    - Add CNAME record: `www` → `YOUR_USERNAME.github.io`
    - Add A records for apex domain:
@@ -261,7 +261,7 @@ https://YOUR_USERNAME.github.io/azhar-ali-portfolio/
 
 After pushing to GitHub:
 
-- [ ] Repository visible at: https://github.com/YOUR_USERNAME/azhar-ali-portfolio
+- [ ] Repository visible at: https://github.com/YOUR_USERNAME/faheem-akbar-portfolio
 - [ ] README.md displays correctly
 - [ ] .gitignore working (node_modules/, dist/ not visible)
 - [ ] All documentation files present

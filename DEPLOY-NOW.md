@@ -1,22 +1,22 @@
 # 🚀 IMMEDIATE DEPLOYMENT - Quick Reference
-**Deploy to azharalidayo.me in 5 minutes**
+**Deploy to faheemakbar.me in 5 minutes**
 
 ---
 
 ## Step 1: Upload .htaccess (2 minutes)
 
-**File Location:** `u:\Projects\PORTFOLIO\azhar-ali-portfolio\.htaccess`
+**File Location:** `u:\Projects\PORTFOLIO\faheem-akbar-portfolio\.htaccess`
 
 **Upload Methods:**
 
 ### Method A: FTP/SFTP (FileZilla, WinSCP)
-1. Connect to: `azharalidayo.me`
+1. Connect to: `faheemakbar.me`
 2. Navigate to: `/public_html/` or `/www/`
 3. Upload: `.htaccess`
 4. Permissions: `644`
 
 ### Method B: cPanel File Manager
-1. Login: https://azharalidayo.me:2083 (or your cPanel URL)
+1. Login: https://faheemakbar.me:2083 (or your cPanel URL)
 2. File Manager > public_html/
 3. Upload > Select `.htaccess`
 4. Enable "Show Hidden Files" to verify upload
@@ -28,14 +28,14 @@
 **Open in browser:**
 
 ❌ **Should FAIL (403 Forbidden):**
-- https://azharalidayo.me/js/
-- https://azharalidayo.me/assets/
-- https://azharalidayo.me/css/
+- https://faheemakbar.me/js/
+- https://faheemakbar.me/assets/
+- https://faheemakbar.me/css/
 
 ✅ **Should WORK (200 OK):**
-- https://azharalidayo.me/index.html
-- https://azharalidayo.me/js/particle-bg.js
-- https://azharalidayo.me/assets/images/profile/photo.jpg
+- https://faheemakbar.me/index.html
+- https://faheemakbar.me/js/particle-bg.js
+- https://faheemakbar.me/assets/images/profile/photo.jpg
 
 ---
 
@@ -43,7 +43,7 @@
 
 **PowerShell Command:**
 ```powershell
-curl.exe -I https://azharalidayo.me
+curl.exe -I https://faheemakbar.me
 ```
 
 **Look for these headers:**
@@ -55,7 +55,7 @@ Referrer-Policy: no-referrer
 ```
 
 **Online Test:**
-https://securityheaders.com/?q=https://azharalidayo.me
+https://securityheaders.com/?q=https://faheemakbar.me
 
 **Target:** A or A+ rating
 
@@ -64,9 +64,9 @@ https://securityheaders.com/?q=https://azharalidayo.me
 ## Step 4: Test All Pages (1 minute)
 
 **Quick Page Test:**
-- [ ] https://azharalidayo.me/index.html
-- [ ] https://azharalidayo.me/projects.html
-- [ ] https://azharalidayo.me/contact.html
+- [ ] https://faheemakbar.me/index.html
+- [ ] https://faheemakbar.me/projects.html
+- [ ] https://faheemakbar.me/contact.html
 
 **For each page:**
 1. Press F12 (DevTools)
@@ -77,7 +77,7 @@ https://securityheaders.com/?q=https://azharalidayo.me
 
 ## Step 5: Test Contact Form (30 seconds)
 
-1. Go to: https://azharalidayo.me/contact.html
+1. Go to: https://faheemakbar.me/contact.html
 2. Fill form and submit
 3. ✅ **Expected:** Success message
 4. Submit 6 times rapidly

@@ -1,7 +1,7 @@
 # Complete UX Audit & Fixes - Portfolio Project
 
 **Audit Date**: December 2024  
-**Project**: Azhar Ali Portfolio  
+**Project**: Faheem Akbar Portfolio  
 **Status**: ✅ **COMPLETE**
 
 ---

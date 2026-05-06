@@ -1,6 +1,6 @@
 # Portfolio QA Testing Report & Implementation
 **Date:** January 10, 2026  
-**Portfolio:** Azhar Ali - Frontend & Cybersecurity Portfolio
+**Portfolio:** Faheem Akbar - Frontend & Cybersecurity Portfolio
 
 ---
 
@@ -10,7 +10,7 @@
 **Status:** ✅ COMPLETE
 
 **Fixes Applied:**
-- ✅ localStorage flag (`azhar_portfolio_visited`) properly tracks first visit
+- ✅ localStorage flag (`faheem_portfolio_visited`) properly tracks first visit
 - ✅ Smooth 800ms fade-out with proper DOM removal
 - ✅ Duration: ~6-7 seconds (slow, cinematic typewriter)
 - ✅ Theme: #0a0f1e dark background, neon cyan text (#06b6d4)
@@ -68,12 +68,12 @@
 
 **Before:**
 ```
-© 2025 Azhar Ali . All rights reserved | Toggle system state panel | Explain this site
+© 2025 Faheem Akbar . All rights reserved | Toggle system state panel | Explain this site
 ```
 
 **After:**
 ```
-© 2025 Azhar Ali. All rights reserved.
+© 2025 Faheem Akbar. All rights reserved.
 [Explain this site button]
 ```
 
@@ -328,7 +328,7 @@
 5. **Analytics:** Add performance monitoring
 
 ### Maintenance Notes:
-- Boot loader localStorage key: `azhar_portfolio_visited`
+- Boot loader localStorage key: `faheem_portfolio_visited`
 - Clear localStorage to test loader again
 - QA optimizations CSS can be extended for future components
 - All touch targets maintain 44x44px minimum

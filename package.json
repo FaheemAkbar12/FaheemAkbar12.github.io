@@ -1,7 +1,7 @@
 {
-  "name": "azhar-ali-portfolio",
+  "name": "faheem-akbar-portfolio",
   "version": "1.0.0",
-  "description": "Professional portfolio website for Azhar Ali with production optimization",
+  "description": "Professional portfolio website for Faheem Akbar with production optimization",
   "private": true,
   "scripts": {
     "clean": "node build-scripts/clean.js",
@@ -18,7 +18,7 @@
     "cybersecurity",
     "web-development"
   ],
-  "author": "Azhar Ali",
+  "author": "Faheem Akbar",
   "license": "MIT",
   "devDependencies": {
     "esbuild": "^0.19.11",

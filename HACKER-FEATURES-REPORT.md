@@ -32,7 +32,7 @@ $ initializing secure connection...
 $ scanning skills database...
 $ loading projects archive...
 $ establishing secure channel...
-$ connection established: Azhar Ali
+$ connection established: Faheem Akbar
 $ system ready. welcome.
 $ _
 ```
@@ -322,14 +322,14 @@ Modal Load Time: <100ms
 ### Terminal Animation
 ```
 ┌─────────────────────────────────────────┐
-│ ●  ●  ●         azhar@portfolio:~$      │
+│ ●  ●  ●         faheem@portfolio:~$     │
 ├─────────────────────────────────────────┤
 │ $ booting portfolio system...           │
 │ $ initializing secure connection...     │
 │ $ scanning skills database...           │
 │ $ loading projects archive...           │
 │ $ establishing secure channel...        │
-│ $ connection established: Azhar Ali     │
+│ $ connection established: Faheem Akbar  │
 │ $ system ready. welcome.                │
 │ $ _                                     │
 └─────────────────────────────────────────┘

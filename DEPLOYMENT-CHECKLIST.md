@@ -1,5 +1,5 @@
 # 🚀 Production Deployment Checklist
-**Azhar Ali Portfolio - azharalidayo.me**  
+**Faheem Akbar Portfolio - faheemakbar.me**  
 **Date:** January 9, 2026
 
 ---
@@ -22,7 +22,7 @@
 ### Step 1: Upload .htaccess File
 ```bash
 # Method A: FTP/SFTP (FileZilla, WinSCP, etc.)
-# 1. Connect to azharalidayo.me server
+# 1. Connect to faheemakbar.me server
 # 2. Navigate to public_html/ or www/ directory
 # 3. Upload: .htaccess (from your local project root)
 # 4. Set permissions: 644 (read/write for owner, read for others)
@@ -45,25 +45,25 @@
 
 1. **JavaScript directory:**
    ```
-   https://azharalidayo.me/js/
+   https://faheemakbar.me/js/
    ```
    **Expected:** 403 Forbidden (not a file list)
 
 2. **Assets directory:**
    ```
-   https://azharalidayo.me/assets/
+   https://faheemakbar.me/assets/
    ```
    **Expected:** 403 Forbidden (not a file list)
 
 3. **Styles directory:**
    ```
-   https://azharalidayo.me/assets/styles/
+   https://faheemakbar.me/assets/styles/
    ```
    **Expected:** 403 Forbidden (not a file list)
 
 4. **Individual file (should still work):**
    ```
-   https://azharalidayo.me/js/particle-bg.js
+   https://faheemakbar.me/js/particle-bg.js
    ```
    **Expected:** File loads successfully (200 OK)
 
@@ -75,7 +75,7 @@
 
 **Command Line Test:**
 ```bash
-curl -I https://azharalidayo.me
+curl -I https://faheemakbar.me
 ```
 
 **Expected Headers:**
@@ -94,15 +94,15 @@ Cross-Origin-Embedder-Policy: require-corp
 
 **Online Testing Tools:**
 1. **Security Headers Test:**
-   - Visit: https://securityheaders.com/?q=https://azharalidayo.me
+   - Visit: https://securityheaders.com/?q=https://faheemakbar.me
    - **Target:** A or A+ rating
 
 2. **Mozilla Observatory:**
-   - Visit: https://observatory.mozilla.org/analyze/azharalidayo.me
+   - Visit: https://observatory.mozilla.org/analyze/faheemakbar.me
    - **Target:** A or A+ rating
 
 3. **SSL Labs (if HTTPS):**
-   - Visit: https://www.ssllabs.com/ssltest/analyze.html?d=azharalidayo.me
+   - Visit: https://www.ssllabs.com/ssltest/analyze.html?d=faheemakbar.me
    - **Target:** A or A+ rating
 
 ---
@@ -110,12 +110,12 @@ Cross-Origin-Embedder-Policy: require-corp
 ### Step 4: Full Portfolio Testing
 
 **Test All Pages:**
-- [ ] https://azharalidayo.me/index.html (Home)
-- [ ] https://azharalidayo.me/projects.html (Projects)
-- [ ] https://azharalidayo.me/skills.html (Skills)
-- [ ] https://azharalidayo.me/about.html (About)
-- [ ] https://azharalidayo.me/contact.html (Contact)
-- [ ] https://azharalidayo.me/security-lab.html (Security Lab)
+- [ ] https://faheemakbar.me/index.html (Home)
+- [ ] https://faheemakbar.me/projects.html (Projects)
+- [ ] https://faheemakbar.me/skills.html (Skills)
+- [ ] https://faheemakbar.me/about.html (About)
+- [ ] https://faheemakbar.me/contact.html (Contact)
+- [ ] https://faheemakbar.me/security-lab.html (Security Lab)
 
 **For Each Page, Verify:**
 1. **Visual Check:**
@@ -256,12 +256,12 @@ Cross-Origin-Embedder-Policy: require-corp
 - [ ] Canonical URL (`<link rel="canonical">`)
 
 **Check Files:**
-- [ ] https://azharalidayo.me/robots.txt (accessible)
-- [ ] https://azharalidayo.me/sitemap.xml (accessible)
+- [ ] https://faheemakbar.me/robots.txt (accessible)
+- [ ] https://faheemakbar.me/sitemap.xml (accessible)
 
 **Submit to Search Engines:**
 - [ ] Google Search Console: https://search.google.com/search-console
-- [ ] Submit sitemap: https://azharalidayo.me/sitemap.xml
+- [ ] Submit sitemap: https://faheemakbar.me/sitemap.xml
 
 ---
 
@@ -360,7 +360,7 @@ Cross-Origin-Embedder-Policy: require-corp
 **Solution:**
 1. Check if mod_headers enabled on server
 2. Contact hosting provider to enable mod_headers
-3. Test with: `curl -I https://azharalidayo.me`
+3. Test with: `curl -I https://faheemakbar.me`
 4. Check .htaccess syntax (no typos)
 
 ### Issue: Console Errors
@@ -415,7 +415,7 @@ Once all checkboxes are complete, your portfolio is **production-ready** and **s
 
 **Next Steps:**
 1. Monitor performance for 24 hours
-2. Share portfolio URL: https://azharalidayo.me
+2. Share portfolio URL: https://faheemakbar.me
 3. Submit to Google Search Console
 4. Add to professional profiles (LinkedIn, GitHub)
 

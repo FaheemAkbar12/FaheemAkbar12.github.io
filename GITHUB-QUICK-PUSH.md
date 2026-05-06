@@ -14,10 +14,10 @@ git branch -M main
 git add .
 
 # 3. Commit
-git commit -m "Initial commit: Azhar Ali Portfolio - Production ready"
+git commit -m "Initial commit: Faheem Akbar Portfolio - Production ready"
 
 # 4. Add GitHub remote (replace YOUR_USERNAME)
-git remote add origin https://github.com/YOUR_USERNAME/azhar-ali-portfolio.git
+git remote add origin https://github.com/YOUR_USERNAME/faheem-akbar-portfolio.git
 
 # 5. Push to GitHub
 git push -u origin main
@@ -90,14 +90,14 @@ After push, enable hosting:
 gh repo edit --enable-pages --pages-branch main
 
 # Or manually:
-# 1. Go to: https://github.com/YOUR_USERNAME/azhar-ali-portfolio/settings/pages
+# 1. Go to: https://github.com/YOUR_USERNAME/faheem-akbar-portfolio/settings/pages
 # 2. Source: main branch, /root
 # 3. Save
 ```
 
 **Live URL:**
 ```
-https://YOUR_USERNAME.github.io/azhar-ali-portfolio/
+https://YOUR_USERNAME.github.io/faheem-akbar-portfolio/
 ```
 
 ---

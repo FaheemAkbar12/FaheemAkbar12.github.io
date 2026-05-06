@@ -2,7 +2,7 @@
 
 ## 🎯 Mission Accomplished
 
-Your Azhar Ali portfolio has been professionally audited and optimized with **25+ improvements** across accessibility, responsiveness, and UX. All changes are production-ready and fully tested.
+Your Faheem Akbar portfolio has been professionally audited and optimized with **25+ improvements** across accessibility, responsiveness, and UX. All changes are production-ready and fully tested.
 
 ---
 
@@ -32,7 +32,7 @@ Your Azhar Ali portfolio has been professionally audited and optimized with **25
 ### 🚀 Boot Loader (Objective 1)
 **Problem:** Loader needed proper one-time display logic  
 **Solution:**
-- ✅ localStorage flag: `azhar_portfolio_visited`
+- ✅ localStorage flag: `faheem_portfolio_visited`
 - ✅ Shows only on first visit, skipped on refresh
 - ✅ Smooth 800ms fade-out with DOM cleanup
 - ✅ Duration: 6-7 seconds (slow, cinematic)
@@ -181,7 +181,7 @@ After: ✅ 48px height, 12px gap, full-width
 **Footer Layout (Mobile):**
 ```
 Before: © 2025 ... | Toggle ... | Explain ...
-After: ✅ © 2025 Azhar Ali. All rights reserved.
+After: ✅ © 2025 Faheem Akbar. All rights reserved.
        ✅ [Explain this site button]
 ```
 
@@ -242,7 +242,7 @@ assets/styles/
 ### JavaScript Enhancements
 ```javascript
 // boot-loader.js improvements:
-- localStorage tracking: azhar_portfolio_visited
+- localStorage tracking: faheem_portfolio_visited
 - Body class management: loader-active
 - Randomized typewriter: 85ms ±15ms
 - Glitch effect on verification line
@@ -408,7 +408,7 @@ Your portfolio is now battle-tested and ready to impress recruiters, clients, an
 
 ---
 
-**Portfolio:** Azhar Ali - Frontend & Cybersecurity  
+**Portfolio:** Faheem Akbar - Frontend & Cybersecurity  
 **QA Optimization:** Complete ✅  
 **Date:** January 10, 2026  
 **Version:** 2.0 (Production Ready)

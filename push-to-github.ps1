@@ -1,10 +1,10 @@
 # ==========================
-# AZHAR ALI PORTFOLIO PUSH
+# FAHEEM AKBAR PORTFOLIO PUSH
 # PowerShell Script for Windows
 # ==========================
 
 Write-Host "`n================================================" -ForegroundColor Cyan
-Write-Host "  AZHAR ALI PORTFOLIO - GITHUB PUSH" -ForegroundColor Green
+Write-Host "  Faheem Akbar PORTFOLIO - GITHUB PUSH" -ForegroundColor Green
 Write-Host "================================================`n" -ForegroundColor Cyan
 
 # Step 1: Check if we're in the right directory
@@ -101,7 +101,7 @@ if ($filesAdded -gt 10) {
 
 # Step 6: Create commit
 Write-Host "`n[5/7] Creating commit..." -ForegroundColor Cyan
-git commit -m "Initial commit: Azhar Ali Portfolio
+git commit -m "Initial commit: Faheem Akbar Portfolio
 
 - Production-ready portfolio with enterprise security
 - CSRF protection and rate limiting implemented
@@ -137,8 +137,8 @@ Write-Host "`n[6/7] Connecting to GitHub..." -ForegroundColor Cyan
 git remote remove origin 2>&1 | Out-Null
 
 # Add your GitHub repository
-git remote add origin https://github.com/azhar-121/azharalidayo.me.git
-Write-Host "  ✓ Remote added: https://github.com/azhar-121/azharalidayo.me" -ForegroundColor Green
+git remote add origin https://github.com/faheem-akbar/faheem-akbar-portfolio.git
+Write-Host "  ✓ Remote added: https://github.com/faheem-akbar/faheem-akbar-portfolio.git" -ForegroundColor Green
 
 # Step 8: Push to GitHub
 Write-Host "`n[7/7] Pushing to GitHub..." -ForegroundColor Cyan
@@ -151,7 +151,7 @@ if ($LASTEXITCODE -eq 0) {
     Write-Host "  ✗ Push failed. Error details:" -ForegroundColor Red
     Write-Host $pushResult -ForegroundColor Red
     Write-Host "`n  Troubleshooting:" -ForegroundColor Yellow
-    Write-Host "  1. Ensure repository exists: https://github.com/azhar-121/azharalidayo.me" -ForegroundColor White
+    Write-Host "  1. Ensure repository exists: https://github.com/faheem-akbar/faheem-akbar-portfolio.git" -ForegroundColor White
     Write-Host "  2. Use Personal Access Token instead of password" -ForegroundColor White
     Write-Host "  3. Create token at: https://github.com/settings/tokens" -ForegroundColor White
     exit 1
@@ -163,10 +163,10 @@ Write-Host "  ✅ SUCCESS - PORTFOLIO PUSHED TO GITHUB!" -ForegroundColor Green
 Write-Host "================================================`n" -ForegroundColor Cyan
 
 Write-Host "Repository URL:" -ForegroundColor Yellow
-Write-Host "  https://github.com/azhar-121/azharalidayo.me`n" -ForegroundColor White
+Write-Host "  https://github.com/faheem-akbar/faheem-akbar-portfolio.git`n" -ForegroundColor White
 
 Write-Host "View your code:" -ForegroundColor Yellow
-Write-Host "  https://github.com/azhar-121/azharalidayo.me/tree/main`n" -ForegroundColor White
+Write-Host "  https://github.com/faheem-akbar/faheem-akbar-portfolio.git/tree/main`n" -ForegroundColor White
 
 if ($privateFiles.Count -gt 0) {
     Write-Host "Protected files (NOT pushed):" -ForegroundColor Yellow
@@ -184,9 +184,9 @@ if ($privateFiles.Count -gt 0) {
 Write-Host "`n================================================`n" -ForegroundColor Cyan
 
 Write-Host "Next Steps:" -ForegroundColor Yellow
-Write-Host "  1. View repo: https://github.com/azhar-121/azharalidayo.me" -ForegroundColor White
+Write-Host "  1. View repo: https://github.com/faheem-akbar/faheem-akbar-portfolio.git" -ForegroundColor White
 Write-Host "  2. Enable GitHub Pages (Settings > Pages)" -ForegroundColor White
-Write-Host "  3. Deploy .htaccess to azharalidayo.me" -ForegroundColor White
+Write-Host "  3. Deploy .htaccess to faheemakbar.me" -ForegroundColor White
 Write-Host "  4. Test both sites`n" -ForegroundColor White
 
 Write-Host "Documentation:" -ForegroundColor Yellow
