@@ -1,4 +1,3 @@
-# FaheemAkbar12.github.io
 # Faheem Akbar Portfolio
 
 [**Live Site**](https://faheemakbar.me)  
