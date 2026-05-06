@@ -1,5 +1,5 @@
-# Robots.txt for Azhar Ali Portfolio - Updated October 18, 2025
-# https://azhardayo.github.io/AzharAli-Portfolio/
+# Robots.txt for Faheem Akbar Portfolio - Updated October 18, 2025
+# https://faheemakbar.me/
 
 # Allow all major search engines
 User-agent: *
@@ -42,7 +42,7 @@ Allow: /google5e6fdfbdea55aee7.html
 Allow: /manifest.json
 
 # Point to sitemap
-Sitemap: https://azhardayo.github.io/AzharAli-Portfolio/sitemap.xml
+Sitemap: https://faheemakbar.me/sitemap.xml
 
 # Host directive
-Host: https://azhardayo.github.io
+Host: https://faheemakbar.me
