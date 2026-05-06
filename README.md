@@ -1,240 +1,182 @@
-# FaheemAkbar12.github.io
-Faheem Akbar Portfolio
-Live Site: https://faheemakbar.me
-GitHub: https://github.com/YOUR_USERNAME/faheem-akbar-portfolio (update after push)
+# Faheem Akbar Portfolio
 
-This is the official portfolio website for Faheem Akbar, showcasing skills, projects, and professional information.
+[**Live Site**](https://faheemakbar.me)  
+[**GitHub Repo**](https://github.com/FaheemAkbar12/FaheemAkbar12.github.io)
 
-🎯 Quick Actions
-Deploy to Production: DEPLOY-NOW.md - 5-minute setup
-Push to GitHub: GITHUB-QUICK-PUSH.md - 5 commands
+This is the official portfolio website for Faheem Akbar, featuring projects, skills, professional experience, and security demonstrations.
 
-# Deploy: Upload .htaccess to server
-# GitHub: git init && git add . && git commit -m "Initial" && git push
-```bash
-# Upload .htaccess to your server
-# Test: https://faheemakbar.me/js/ (should return 403 Forbidden)
-# Done! ✅
-Features
-Responsive design that works on all devices
-Dark cyber theme with modern UI elements
-Optimized performance with minified assets
-Lazy loading for improved page load times
-PWA capabilities through web app manifest
-Organized file structure for easy maintenance
-SEO optimized with appropriate meta tags
-🔒 CSRF Protection - Secure contact form with token validation
-🚫 Rate Limiting - Spam prevention (5 submissions per 10 minutes)
-🛡️ Directory Listing Disabled - Critical security protection
-🚀 Production Ready
-This portfolio is production-optimized with enterprise-grade features:
+---
 
-⚡ Performance
-58% smaller JavaScript (180 KB → 75 KB)
-41% smaller CSS (150 KB → 89 KB)
-52% faster First Contentful Paint (2.5s → 1.2s)
-Lighthouse score: 93 (previously 75)
-🔒 Security
-Directory listing disabled (Options -Indexes)
-Content-Security-Policy (CSP) with strict directives
-CSRF protection with 256-bit tokens
-Rate limiting (5 submissions per 10 minutes)
-All security headers configured (A+ rating ready)
-♿ Accessibility
-WCAG 2.1 Level AA compliant
-Skip links with keyboard shortcuts (accesskey="1")
-Enhanced focus indicators for keyboard navigation
-Screen reader announcements for dynamic content
-Respects prefers-reduced-motion (disables animations)
-📊 Monitoring
-Sentry error tracking integration
-Core Web Vitals monitoring (LCP, FID, CLS)
-Privacy-focused (no PII tracking)
-Environment-specific console management
-📖 Documentation
-Security:
+## 🚀 Features
 
-SECURITY-IMPLEMENTATION-COMPLETE.md - Complete security overview
-CSRF-PROTECTION-GUIDE.md - CSRF implementation
-RATE-LIMITING-GUIDE.md - Rate limiting setup
-csrf-test-suite.html - Interactive security tests
-Production Deployment:
+- **Responsive design:** Works seamlessly on all devices
+- **Dark cyber theme:** Modern, accessible UI
+- **Performance optimized:** Minified, bundled assets; lazy loading
+- **PWA:** Installable, web app manifest, offline support
+- **SEO & accessibility:** WCAG 2.1 AA, meta tags, keyboard navigation, prefers-reduced-motion
+- **Security:**  
+  - CSRF-protected contact form (token validation)  
+  - Rate limiting (5 submissions/10 min)  
+  - Strict security headers, directory listing disabled
+- **Monitoring:** Sentry integration, Core Web Vitals, privacy-focused (no PII)
+- **Structured project layout** for maintainability
 
-PRODUCTION-QUICK-START.md - 5-minute deployment guide ⭐
-PRODUCTION-DEPLOYMENT-GUIDE.md - Complete deployment process
-PRODUCTION-OPTIMIZATION-SUMMARY.md - Implementation details
-Backend Examples: js/backend-example.js - Production-ready implementations for Node.js/Python/PHP
+---
 
-Folder Structure
-The portfolio follows a modern, organized structure:
+## 🗂️ Project Structure
 
+```
 /
 ├── assets/
-│   ├── favicon/        # Favicon files
-│   ├── fonts/          # Custom font files
-│   ├── icons/          # Icon assets
-│   ├── images/         # All image assets
-│   │   ├── profile/    # Profile photos and branding
-│   │   ├── projects/   # Project-specific images
-│   │   ├── testimonials/ # Client photos
-│   │   ├── background/ # Background elements
-│   │   ├── cursor/     # Custom cursor SVGs
-│   │   └── ...         # Other image categories
-│   ├── styles/         # CSS files
-│   │   ├── main.css    # Main CSS file that imports all styles
-│   │   └── min/        # Minified CSS files
-│   │       └── main.min.css # Minified version of main.css
-│   └── scripts/        # JavaScript files
-│       ├── main.js     # Main JS file
-│       ├── force-dark-theme.js # Theme implementation
-│       ├── header-animations.js # Animation effects
-│       └── min/        # Minified JS files
-│           └── main.min.js # Minified version of main.js
-├── index.html          # Main portfolio page
-├── manifest.json       # Web app manifest for PWA support
-├── sitemap.xml         # Site map for SEO
-├── robots.txt          # Robots file for search engines
-└── .well-known/        # Well-known directory for services
-🛠️ Development
-Quick Start
-Install dependencies:
+│   ├── favicon/      # Favicons
+│   ├── fonts/        # Custom fonts
+│   ├── icons/        # Icons (SVG/PNG)
+│   ├── images/       # Images & backgrounds
+│   │   ├── profile/
+│   │   ├── projects/
+│   │   ├── testimonials/
+│   │   ├── background/
+│   │   └── cursor/
+│   ├── styles/       # CSS (modularized: base, components, layout, variables)
+│   └── scripts/      # JavaScript (core site behaviors)
+├── js/               # Feature JS modules (security, forms, demos)
+├── dist/             # Production bundles (autogenerated)
+├── index.html        # Home
+├── projects.html     # Projects page
+├── contact.html      # Contact form
+├── skills.html       # Skills
+├── security-lab.html # Security features & demos
+├── csrf-test-suite.html # Security test UI
+├── manifest.json     # PWA manifest
+├── sitemap.xml       # SEO sitemap
+├── robots.txt
+└── .well-known/
+```
 
+---
+
+## 🏗️ Build & Development
+
+**Quick start:**
+```sh
 npm install
-Build for production:
+npm run build       # Clean and bundle assets for production
+npm run serve       # Local server at http://localhost:8080
+npm run watch       # Auto-build on changes (dev)
+```
 
-npm run build
-Creates optimized bundles in dist/:
+**Custom build scripts** (see [`build-scripts/`](build-scripts/)):
+- **JS bundling:** `npm run build:js` (esbuild, bundles into dist/js/)
+- **CSS minify:** `npm run build:css` (CleanCSS, bundled/minified into dist/css/)
+- **Watch mode:** Rebuilds on source file changes
 
-dist/js/main.bundle.min.js (58% smaller)
-dist/css/main.min.css (41% smaller)
-Test locally:
+**Development tips:**
+- Edit **CSS** in `assets/styles/` (base, components, layout, variables in `/base/variables.css`)
+- Edit **JS** in `assets/scripts/` (core behaviors) or `js/` (features/modules)
+- Add/update bundle entry points in `build-scripts/build-js.js` for new JS sources
+- Run a build after changing source asset locations; update all HTML references if needed
 
-npm run serve
-Opens at http://localhost:8080
+---
 
-Watch mode (development):
+## 🛡️ Security & Best Practices
 
-npm run watch
-Auto-rebuilds on file changes
+- **CSRF protection** (see [CSRF-PROTECTION-GUIDE.md](CSRF-PROTECTION-GUIDE.md))
+- **Rate limiting:** Blocks excess form submissions ([RATE-LIMITING-GUIDE.md](RATE-LIMITING-GUIDE.md))
+- **Strict Content Security Policy, A+ headers** ([SECURITY-IMPLEMENTATION-COMPLETE.md](SECURITY-IMPLEMENTATION-COMPLETE.md))
+- **Directory listing disabled** (`Options -Indexes`)
+- **Interactive security testing:** [csrf-test-suite.html](csrf-test-suite.html)
+- **.htaccess/server config**: You must upload `.htaccess` to enable production security (see deployment guides)
 
-Build Scripts
-npm run clean - Remove dist/ folder
-npm run build:js - Bundle JavaScript with esbuild
-npm run build:css - Minify CSS with CleanCSS
-npm run build - Full production build
-npm run watch - Development mode with auto-rebuild
-npm run serve - Local HTTP server for testing
-Adding Content
-New Project
-Add project image to assets/images/projects/
-Edit projects.html and add:
-<div class="project-card">
-  <div class="project-image">
-    <img src="assets/images/projects/your-project.jpg" 
-         alt="Project Name" 
-         loading="lazy" 
-         width="400" 
-         height="220">
-  </div>
-  <div class="project-content">
-    <h3 class="project-title">Your Project Title</h3>
-    <p class="project-description">Description here.</p>
-    <div class="project-tech">
-      <span class="tech-tag">React</span>
-      <span class="tech-tag">Node.js</span>
-    </div>
-  </div>
-</div>
-Run npm run build to regenerate bundles
-Modify Styles
-Edit files in assets/styles/ directory
-CSS is organized by purpose:
-base/ - Reset, typography, variables
-components/ - Buttons, cards, forms
-layout/ - Grid, header, footer
-Run npm run build:css to minify
-CSS variables defined in base/variables.css
-Modify JavaScript
-Edit files in assets/scripts/ or js/
-Main entry points:
-assets/scripts/main.js - Core functionality
-js/security-lab.js - Security page
-js/contact.js - Contact form
-Run npm run build:js to bundle
-Source maps included for debugging
-Environment Modes
-Production Mode (default):
+---
 
-Console logs disabled
-Error tracking enabled (Sentry)
-Optimized bundles loaded
-Performance monitoring active
-Debug Mode (for troubleshooting):
+## 📋 Documentation
 
-// In browser console:
-window.enableDebugMode()
-// Or add to URL:
-// https://yoursite.com?debug=true
-Testing
-Before Deployment:
+- **Security Implementation:** [SECURITY-IMPLEMENTATION-COMPLETE.md](SECURITY-IMPLEMENTATION-COMPLETE.md)
+- **CSRF Guide:** [CSRF-PROTECTION-GUIDE.md](CSRF-PROTECTION-GUIDE.md)
+- **Rate Limiting:** [RATE-LIMITING-GUIDE.md](RATE-LIMITING-GUIDE.md)
+- **Deployment (quick start):** [PRODUCTION-QUICK-START.md](PRODUCTION-QUICK-START.md)
+- **Full Deployment:** [PRODUCTION-DEPLOYMENT-GUIDE.md](PRODUCTION-DEPLOYMENT-GUIDE.md)
+- **Production Optimization:** [PRODUCTION-OPTIMIZATION-SUMMARY.md](PRODUCTION-OPTIMIZATION-SUMMARY.md)
+- **Backend Security Examples:** [`js/backend-example.js`](js/backend-example.js)
+- **Historical reports:** See `portfolio-cleanup-report.md`, `restructuring-report.md`, `HACKER-FEATURES-REPORT.md`
 
-Run npm run build
-Test with npm run serve
-Verify:
-✅ Forms submit correctly
-✅ Animations respect prefers-reduced-motion
-✅ No console errors
-✅ CSRF protection works
-✅ Rate limiting blocks spam
-Security Tests:
+---
 
-Open csrf-test-suite.html locally
-Try submitting without CSRF token (should fail)
-Submit form 6 times (6th should be blocked)
-Accessibility Tests:
+## 📝 Adding Projects & Content
 
-Press Tab key to navigate (green focus indicators)
-Press 1 key for skip link
-Test with screen reader
-Verify keyboard shortcuts work
-📦 Deployment
-See PRODUCTION-QUICK-START.md for a 5-minute deployment guide.
+**Add a new project:**
+1. Place your image in `assets/images/projects/`
+2. Edit `projects.html`:  
+   ```html
+   <div class="project-card">
+     <div class="project-image">
+       <img src="assets/images/projects/your-project.jpg" alt="Project Name" loading="lazy" width="400" height="220">
+     </div>
+     <div class="project-content">
+       <h3 class="project-title">Your Project Title</h3>
+       <p class="project-description">Description here.</p>
+       <div class="project-tech">
+         <span class="tech-tag">React</span>
+         <span class="tech-tag">Node.js</span>
+       </div>
+     </div>
+   </div>
+   ```
+3. Run `npm run build` to update production bundles
 
-Deployment Platforms:
+**Edit/extend CSS:**
+- Edit files in `assets/styles/`
+- Follow the `base/`, `components/`, `layout/` structure
+- Variables in `base/variables.css`
+- Rebuild with `npm run build:css`
 
-Netlify (recommended for static sites)
-Vercel (excellent performance)
-VPS (full control with Apache/Nginx)
-Required Steps:
+---
 
-Build: npm run build
-Update HTML to reference dist/ files
-Deploy security headers (.htaccess or server config)
-Configure Sentry DSN (optional but recommended)
-Enable HTTPS
-Full instructions in PRODUCTION-DEPLOYMENT-GUIDE.md
+## 🧪 Testing Before Deployment
 
-📋 Reports & Documentation
-Production Guides:
+- Build: `npm run build`
+- Test serve: `npm run serve`
+- **Check:**
+  - All forms work, animations respect accessibility settings
+  - No console errors
+  - CSRF and rate limit protections work (see [csrf-test-suite.html](csrf-test-suite.html))
+  - Accessibility: Tab navigation, skip links, focus indicators, screen reader support
 
-PRODUCTION-QUICK-START.md - 5-minute deployment guide ⭐
-PRODUCTION-DEPLOYMENT-GUIDE.md - Complete deployment instructions
-PRODUCTION-OPTIMIZATION-SUMMARY.md - Implementation summary
-Security Documentation:
+---
 
-SECURITY-IMPLEMENTATION-COMPLETE.md - Security overview
-CSRF-PROTECTION-GUIDE.md - CSRF implementation guide
-RATE-LIMITING-GUIDE.md - Rate limiting setup
-csrf-test-suite.html - Interactive security tests
-Historical Reports:
+## 🚀 Production Deployment
 
-portfolio-cleanup-report.md - Portfolio restructuring documentation
-restructuring-report.md - Reorganization summary
-HACKER-FEATURES-REPORT.md - Feature development report
-🗄️ Backup
-Old files and unused assets are stored in timestamped backup folders:
+1. Run `npm run build`
+2. Update HTML to reference `dist/` bundles (**required!**)
+3. Deploy .htaccess or server config for security headers
+4. Configure Sentry DSN (optional, for error tracking)
+5. Enable HTTPS
+- **Deploy platforms:**  
+  - Netlify (ideal for static sites)  
+  - Vercel  
+  - VPS (Apache/Nginx; full control)
 
-backup_before_refactor_* - Original files before restructuring
-backup_unused_* - Unused files identified during cleanup
-Built with ❤️ by Faheem-Akbar
-© 2025 Faheem-Akbar. All rights reserved.
+For detailed steps, see [PRODUCTION-DEPLOYMENT-GUIDE.md](PRODUCTION-DEPLOYMENT-GUIDE.md).
+
+---
+
+## 🧑‍💻 Maintenance & Backups
+
+- Old/unused files: See `backup_before_refactor_*` and `backup_unused_*` folders
+- Core build and site scripts: See `assets/scripts/`, `js/`
+
+---
+
+## 📊 Key Metrics (production)
+
+- 58% smaller JS bundles (~75KB)
+- 41% smaller CSS (~89KB)
+- 52% faster First Contentful Paint (~1.2s)
+- Lighthouse score: 93
+
+---
+
+## 📜 License & Credits
+
+Built with ❤️ by [Faheem Akbar](https://faheemakbar.me)  
+© 2025 Faheem Akbar. All rights reserved.
